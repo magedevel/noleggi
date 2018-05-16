@@ -24,12 +24,15 @@ import { LoginComponent } from './pages/login/login.component';
 /* START MY VIEWS IMPORTS*/
 // Do not edit this comment content, it will be overwritten in next Skaffolder generation
 import { HomeComponent } from './pages/home/home.component';
+import { UserEditComponent } from './pages/user-edit/user-edit.component';
+import { UserListComponent } from './pages/user-list/user-list.component';
 
 /* END MY VIEWS IMPORTS*/
 
 /* START MY SERVICES IMPORTS*/
 // Do not edit this comment content, it will be overwritten in next Skaffolder generation
 import { UserService } from './services/user.service';
+import { VeicoloService } from './services/veicolo.service';
 
 /* END MY SERVICES IMPORTS*/
 
@@ -75,6 +78,8 @@ import { MailValidator } from './directives/mail-validate.directive';
     /* START DECLARATIONS */
 // Do not edit this comment content, it will be overwritten in next Skaffolder generation
     HomeComponent,
+    UserEditComponent,
+    UserListComponent,
  /* END DECLARATIONS */
     
     // PIPE
@@ -88,6 +93,7 @@ import { MailValidator } from './directives/mail-validate.directive';
     /* START PROVIDERS */
 // Do not edit this comment content, it will be overwritten in next Skaffolder generation
     UserService,
+    VeicoloService,
  /* END PROVIDERS */
     
     // SECURITY
